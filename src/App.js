@@ -1,9 +1,69 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+// ----------------------------------------
+import Layout from "./layout_components/Layout";
+import Home from "./pages/00_home/Home";
+import Missing from "./pages/00_missing/Missing";
+// ----------------------------------------
+import Text from "./pages/01_text/Text";
+import Selectors from "./pages/02_selectors/Selectors";
+import Colours from "./pages/03_colours/Colours";
+import BordersShadows from "./pages/04_borders_shadows/BordersShadows";
+import Gradients from "./pages/05_gradients/Gradients";
+import BackgroundImages from "./pages/06_bg_images/BackgroundImages"
+import DisplayProperty from "./pages/07_display_prop/DisplayProperty";
+import PositionProperty from "./pages/08_position_prop/PositionProperty";
+import Floats from "./pages/09_floats/Floats";
+import Flexbox from "./pages/10_flexbox/Flexbox";
+import Grid from "./pages/11_grid/Grid";
+import Transforms from "./pages/12_transforms/Transforms";
+import Transitions from "./pages/13_transitions/Transitions";
+import Animations from "./pages/14_animations/Animations";
 
 const App = () => {
+  const showOutcome = (e) => {
+    let nextElement = e.target.nextElementSibling;
+    nextElement.classList.toggle("hide");
+
+    let button = e.target;
+    let buttonText = e.target.textContent;
+    let hide = "Hide Outcome";
+    let show = "Show Outcome";
+
+    if (buttonText === "Show Outcome") {
+      button.textContent = hide;
+    } else if (buttonText === "Hide Outcome") {
+      button.textContent = show;
+    }
+  };
   return (
-    <h1>This is a test element!</h1>
-  )
-}
+    <>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          {/* ----------------------------- */}
+          <Route index element={<Home />} />
+          {/* ----------------------------- */}
+          <Route path="01_text" element={<Text showOutcome={showOutcome} />} />
+          <Route path="02_selectors" element={<Selectors />} />
+          <Route path="03_colours" element={<Colours />} />
+          <Route path="04_borders_shadows" element={<BordersShadows />} />
+          <Route path="05_gradients" element={<Gradients />} />
+          <Route path="06_background_images" element={<BackgroundImages />} />
+          <Route path="07_display_property" element={<DisplayProperty />} />
+          <Route path="08_position_property" element={<PositionProperty />} />
+          <Route path="09_floats" element={<Floats />} />
+          <Route path="10_flexbox" element={<Flexbox />} />
+          <Route path="11_grid" element={<Grid />} />
+          <Route path="12_transforms" element={<Transforms />} />
+          <Route path="13_transitions" element={<Transitions />} />
+          <Route path="14_animations" element={<Animations />} />
+          {/* ----------------------------- */}
+          <Route path="*" element={<Missing />} />
+          {/* ------------------------------ */}
+        </Route>
+      </Routes>
+    </>
+  );
+};
 
 export default App;
