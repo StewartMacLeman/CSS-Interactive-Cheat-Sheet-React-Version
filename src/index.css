@@ -40,15 +40,22 @@ h1, h2, h3, h4, p, li, button {
 }
 /* Button styles. ---------------------------------------- */
  button {
-   background-color: black;
-   color: white;
-   border-radius: .5rem;
- }
- button:hover {
-   background-color: white;
-   color: black;
-   cursor: pointer;
- }
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+  margin: 0.2rem auto;
+  color: white;
+  background-color: black;
+  border: 0.15rem solid white;
+  box-shadow: 0 0.15rem black, 0 -0.15rem black, 0.15rem 0 black,
+    -0.15rem 0 black;
+  border-radius: 0.5rem;
+  padding: 0.15rem 0.25rem;
+}
+button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
  /* The header container. ---------------------------------- */
  .header {
    width: 100%;
@@ -121,9 +128,6 @@ h1, h2, h3, h4, p, li, button {
   margin-top: .5rem;
   text-decoration: underline;
 }
-/* .cssTopicCont p  {
-  width: 100%;
-} */
 .cssTopicCont button  {
   width: 40%;
 }
@@ -152,6 +156,29 @@ pre {
   padding: 0;
   margin: 0;
 }
+/* Missing page styles. -------------------------------------- */
+.missing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.missing button {
+  width: 60%;
+  margin-top: 2rem;
+  padding: 0;
+}
+.missing button a {
+  font-size: 2rem;
+  text-decoration: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: white;
+  display: block;
+}
+.missing button a:hover {
+  color: black;
+}
+/* ------------------------------------------------------- */
 /* .sampleDiv {
   border: .15rem solid black;
 }
