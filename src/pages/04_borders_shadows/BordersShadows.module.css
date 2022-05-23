@@ -1,0 +1,73 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.bordShadGenHelper {
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 60%;
+  height: 5rem;
+  margin-bottom: .5rem;
+ }
+
+/* Borders & Shadows Example 1: border-width*/
+.bordersChange_1 {
+  border-width: 4px;
+ }
+/* Borders & Shadows Example 2: border-style*/
+.bordersChange_2 {
+  border-style: dotted;
+ }
+/* Borders & Shadows Example 3: border-color*/
+.bordersChange_3 {
+  border-color: tomato;
+ }
+/* Borders & Shadows Example 4: border shorthand*/
+.bordersChange_4 {
+  border: 4px dotted tomato;
+ }
+/* Borders & Shadows Example 5: border-top*/
+.bordersChange_5 {
+  border-top: 4px dotted tomato;
+ }
+/* Borders & Shadows Example 6: border-radius*/
+.bordersChange_6 {
+  border-radius: 10px;
+ }
+/* Borders & Shadows Example 7: border-radius*/
+.bordersChange_7 {
+  border-radius: 10px 30px;
+ }
+/* Borders & Shadows Example 8: border-radius*/
+.bordersChange_8 {
+  border-radius: 10px 40px 20px;
+ }
+/* Borders & Shadows Example 9: border-radius*/
+.bordersChange_9 {
+  border-radius: 10px 20px 30px 40px;
+ }
+/* Borders & Shadows Example 10: border-top-left-radius*/
+.bordersChange_10 {
+  border-top-left-radius: 10px;
+ }
+/* Borders & Shadows Example 11: border-top-left-radius*/
+.bordersChange_11 {
+  border-top-left-radius: 10px 40px;
+ }
+/* Borders & Shadows Example 12: border-top-right-radius*/
+.bordersChange_12 {
+  border-top-right-radius: 10px 40px;
+ }
+/* Borders & Shadows Example 13: box-shadow*/
+.bordersChange_13 {
+  box-shadow: 15px 5px;
+ }
+/* Borders & Shadows Example 14: box-shadow*/
+.bordersChange_14 {
+  box-shadow: 15px 5px grey;
+ }
+/* Borders & Shadows Example 15: box-shadow*/
+.bordersChange_15 {
+  box-shadow: 15px 5px 5px grey;
+ }
+/* Borders & Shadows Example 16: box-shadow*/
+.bordersChange_16 {
+  box-shadow: 8px 3px 3px darkgrey, 20px 7px 7px lightgrey;
+ }
