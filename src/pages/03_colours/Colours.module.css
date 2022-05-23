@@ -1,0 +1,69 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.colGenHelper {
+  border: 0.15rem solid black;
+  background-color: rgb(0, 128, 0);
+  width: 60%;
+  height: 5rem;
+  margin-bottom: .5rem;
+ }
+
+/* Colours Example 1: Named*/
+.colourChange_1 {
+  background-color: palegreen;
+ }
+/* Colours Example 2: Opacity*/
+.colourChange_2 {
+  opacity: 0.8;
+ }
+/* Colours Example 3: Opacity*/
+.colourChange_3 {
+  opacity: 0.2;
+ }
+/* Colours Example 4: Red - rgb(red, green, blue)*/
+.colourChange_4 {
+  background-color: rgb(255, 0, 0);
+ }
+/* Colours Example 5: Red - rgba(red, green, blue, alpha)*/
+.colourChange_5 {
+  background-color: rgba(255, 0, 0, 0.75);
+ }
+/* Colours Example 6: Red - rgba(red, green, blue, alpha)*/
+.colourChange_6 {
+  background-color: rgba(255, 0, 0, 0.25);
+ }
+/* Colours Example 7: Red - hsl(hue, saturation, lightness)*/
+.colourChange_7 {
+  background-color: hsl(0, 100%, 50%);
+ }
+/* Colours Example 8: Red - hsl(hue, saturation, lightness)*/
+.colourChange_8 {
+  background-color: hsl(0, 75%, 50%);
+ }
+/* Colours Example 9: Red - hsl(hue, saturation, lightness)*/
+.colourChange_9 {
+  background-color: hsl(0, 25%, 50%);
+ }
+/* Colours Example 10: Red - hsl(hue, saturation, lightness)*/
+.colourChange_10 {
+  background-color: hsl(0, 100%, 75%);
+ }
+/* Colours Example 11: Red - hsl(hue, saturation, lightness)*/
+.colourChange_11 {
+  background-color: hsl(0, 100%, 25%);
+ }
+/* Colours Example 12: Red - hsla(hue, saturation, lightness, alpha)*/
+.colourChange_12 {
+  background-color: hsla(0, 100%, 50%, 0.75);
+ }
+/* Colours Example 13: Red - hsla(hue, saturation, lightness, alpha)*/
+.colourChange_13 {
+  background-color: hsla(0, 100%, 50%, 0.25);
+ }
+/* Colours Example 14: Red - Hexadecimal (#rrggbb)*/
+.colourChange_14 {
+  background-color: #ff0000;
+ }
+/* Colours Example 15: Red - Hexadecimal (#rgb)*/
+.colourChange_15 {
+  background-color: #f00;
+ }

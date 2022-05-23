@@ -51,7 +51,7 @@ const App = () => {
             element={<Text toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />}
           />
           <Route path="02_selectors" element={<Selectors toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
-          <Route path="03_colours" element={<Colours />} />
+          <Route path="03_colours" element={<Colours toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           <Route path="04_borders_shadows" element={<BordersShadows />} />
           <Route path="05_gradients" element={<Gradients />} />
           <Route path="06_background_images" element={<BackgroundImages />} />
