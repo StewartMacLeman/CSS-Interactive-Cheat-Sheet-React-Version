@@ -16,7 +16,7 @@
 .textChange_4 {
   text-align: left;
 }
-.tChange_4_Helper {
+.textChange_4_Helper {
   width: 80%;
 }
 /* Text Example 5: text-indent */
@@ -72,12 +72,13 @@
 .textChange_17 {
   white-space: nowrap;
 }
-.tChange_17_Helper {
+.textChange_17_Helper {
   width: 25%;
   border: .15rem solid black;
 }
 /* Text Example 18: overflow */
-.tChange_18_Helper {
+.textChange_18_Helper {
+  width: 80%;
   overflow: hidden;
   height: 70px;
   border: .15rem solid black;
@@ -86,7 +87,8 @@
   overflow: visible;
 }
 /* Text Example 19: overflow-x */
-.tChange_19_Helper {
+.textChange_19_Helper {
+  width: 80%;
   overflow: hidden;
   height: 70px;
   border: .15rem solid black;
@@ -95,7 +97,8 @@
   overflow-y: scroll;
 }
 /* Text Example 20: text-justify */
-.tChange_20_Helper {
+.textChange_20_Helper {
+  width: 80%;
   overflow: hidden;
   height: 70px;
   border: .15rem solid black;
@@ -105,7 +108,7 @@
   text-justify: inter-word;
 }
 /* Text Example 21: word-wrap */
-.tChange_21_Helper {
+.textChange_21_Helper {
   overflow: hidden;
   width: 60%;
   height: 70px;
@@ -115,7 +118,7 @@
   word-wrap: break-word;
 }
 /* Text Example 22: writing-mode */
-.tChange_22_Helper {
+.textChange_22_Helper {
   width: 80%;
   border: .15rem solid black;
 }
@@ -123,7 +126,7 @@
   writing-mode: vertical-rl;
 }
 /* Text Example 23: writing-mode */
-.tChange_23_Helper {
+.textChange_23_Helper {
   width: 80%;
   border: .15rem solid black;
 }

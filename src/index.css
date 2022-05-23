@@ -121,6 +121,9 @@ h1, h2, h3, h4, p, li, button {
   margin-top: .5rem;
   text-decoration: underline;
 }
+/* .cssTopicCont p  {
+  width: 100%;
+} */
 .cssTopicCont button  {
   width: 40%;
 }
