@@ -6,7 +6,7 @@ html {
   box-sizing: inherit;
 }
 :root {
-  --greyBorder : rgba(128, 128, 128, 0.4);
+  --palegreen: rgba(152, 251, 152, 0.4);
 }
 
 body {
@@ -52,7 +52,7 @@ h1, h2, h3, h4, p, li, button {
  /* The header container. ---------------------------------- */
  .header {
    width: 100%;
-   background-color: lightsteelblue;
+   background-color: var(--palegreen);
    border-bottom: .25rem solid black;
    padding-bottom: .25rem;
    display: flex;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, p, li, button {
    width: 80%;
    background-color: white;
    border: .25rem solid black;
-   border-radius: 10px;
+   border-radius: .6rem;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -88,10 +88,10 @@ h1, h2, h3, h4, p, li, button {
  }
  a:hover {
    font-weight: bold;
-   background-color: lightsteelblue;
+   background-color: var(--palegreen);
   }
   .active {
-   background-color: lightsteelblue;
+   background-color: var(--palegreen);
  }
  /* The main container. ------------------------------------- */
  .main {
@@ -99,15 +99,15 @@ h1, h2, h3, h4, p, li, button {
    height: 80vh;
    overflow-y: scroll;
    margin: 1rem auto;
-   background-color: lightsteelblue;
+   background-color: var(--palegreen);
    border: .25rem solid black;
    border-radius: .6rem;
  }
- .main .jsTopicCont {
+ .main .cssTopicCont {
    margin: 1rem auto;
  }
  /* Individual sections container. --------------------- */
-.jsTopicCont {
+.cssTopicCont {
   width: 90%;
   padding: .15rem;
   border: .15rem solid black;
@@ -117,16 +117,20 @@ h1, h2, h3, h4, p, li, button {
   flex-direction: column;
   align-items: center;
 }
-.jsTopicCont h3  {
+.cssTopicCont h3  {
   margin-top: .5rem;
+  text-decoration: underline;
 }
-.jsTopicCont h3,
-.jsTopicCont .codeExampleCont,
-.jsTopicCont button,
-.jsTopicCont .codeOutcomeCont  {
+.cssTopicCont button  {
+  width: 40%;
+}
+.cssTopicCont h3,
+.cssTopicCont .codeExampleCont,
+.cssTopicCont button,
+.cssTopicCont p {
   margin-bottom: .5rem;
 }
-.codeExampleCont, .codeOutcomeCont {
+.codeExampleCont {
   width: 100%;
   overflow-y: hidden;
   overflow-x: scroll;
@@ -134,10 +138,10 @@ h1, h2, h3, h4, p, li, button {
   flex-direction: column;
   align-items: center;
 }
-.codeExampleCont div, .codeOutcomeCont div {
+/* .codeExampleCont div {
   font-family: helvetica, tahoma, sans-serif;
   font-size: 1.5rem;
-}
+} */
 code {
   padding: 0.25rem 0.5rem;
 }
@@ -145,7 +149,19 @@ pre {
   padding: 0;
   margin: 0;
 }
-.marginB {
+/* .sampleDiv {
+  border: .15rem solid black;
+}
+.highlight {
+  margin-bottom: 2rem;
+}
+.highlight::before {
+  content: "** ";
+}
+.highlight::after {
+  content: " **";
+} */
+/* .marginB {
   margin-bottom: 1.25rem;
 }
 .imageExampleCont {
@@ -157,7 +173,7 @@ pre {
 }
 .imageExampleCont img {
   max-width: 100%;
-}
+} */
 /* The hide class. ---------------------------------------------*/
 .hide {
   display: none;

@@ -10,7 +10,7 @@ import Selectors from "./pages/02_selectors/Selectors";
 import Colours from "./pages/03_colours/Colours";
 import BordersShadows from "./pages/04_borders_shadows/BordersShadows";
 import Gradients from "./pages/05_gradients/Gradients";
-import BackgroundImages from "./pages/06_bg_images/BackgroundImages"
+import BackgroundImages from "./pages/06_bg_images/BackgroundImages";
 import DisplayProperty from "./pages/07_display_prop/DisplayProperty";
 import PositionProperty from "./pages/08_position_prop/PositionProperty";
 import Floats from "./pages/09_floats/Floats";
@@ -21,21 +21,24 @@ import Transitions from "./pages/13_transitions/Transitions";
 import Animations from "./pages/14_animations/Animations";
 
 const App = () => {
-  const showOutcome = (e) => {
-    let nextElement = e.target.nextElementSibling;
-    nextElement.classList.toggle("hide");
-
+  // ----------------------------------------------
+  const toggleClasses = (e, toggleClass) => {
+    let changeElement = e.target.previousElementSibling;
+    changeElement.classList.toggle(`${toggleClass}`);
+  };
+  const buttonUpdate = (e) => {
     let button = e.target;
     let buttonText = e.target.textContent;
-    let hide = "Hide Outcome";
-    let show = "Show Outcome";
-
-    if (buttonText === "Show Outcome") {
-      button.textContent = hide;
-    } else if (buttonText === "Hide Outcome") {
-      button.textContent = show;
+    let removeCss = "Reset";
+    let addCss = "Add the CSS";
+    
+    if (buttonText === "Add the CSS") {
+      button.textContent = removeCss;
+    } else if (buttonText === "Reset") {
+      button.textContent = addCss;
     }
   };
+  // ----------------------------------------------
   return (
     <>
       <Routes>
@@ -43,7 +46,10 @@ const App = () => {
           {/* ----------------------------- */}
           <Route index element={<Home />} />
           {/* ----------------------------- */}
-          <Route path="01_text" element={<Text showOutcome={showOutcome} />} />
+          <Route
+            path="01_text"
+            element={<Text toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />}
+          />
           <Route path="02_selectors" element={<Selectors />} />
           <Route path="03_colours" element={<Colours />} />
           <Route path="04_borders_shadows" element={<BordersShadows />} />

@@ -1,41 +1,36 @@
 import React from "react";
+import styles from "../Text.module.css";
 
-const TEXT_1 = ({showOutcome}) => {
-const jsCode =
-`let name = "Bobby";
+const TEXT_1 = ({ toggleClasses, buttonUpdate }) => {
+  // -------------------------------------
+  const addedClass = styles.textChange_1;
+  const switchUpdates = (e) => {
+    buttonUpdate(e);
+    toggleClasses(e, addedClass);
+  };
+  // -------------------------------------
+  const cssCode = `p {
+  font-size: 2.5rem;
+  }`;
+  // -------------------------------------
 
- function whatIsTheType(variable){
-   return typeof variable;
- }
+  return (
+    <div className="cssTopicCont">
+      <h3>Text: font-size</h3>
 
- let outcome = whatIsTheType(name);`;
-// -------------------------------------
-let nameString = "Bobby";
-
-function whatIsTheType(variable) {
-  return typeof variable;
-};
-
-let outcome = whatIsTheType(nameString);
-// -------------------------------------
-
-    return (
-      <div className="jsTopicCont">
-        <h3>typeof Operator: Strings</h3>
-
-        <div className="codeExampleCont">
-          <pre><code>{jsCode}</code></pre>
-        </div>
-
-        <button type="button" onClick={showOutcome}>Show Outcome</button>
-
-        <div className="hide">
-          <div className="codeOutcomeCont">
-            <div><code>{`outcome: ${outcome}`}</code></div>
-          </div>
-        </div>
+      <div className="codeExampleCont">
+        <pre>
+          <code>{cssCode}</code>
+        </pre>
       </div>
-    );
+
+      <p>Sample Text!</p>
+
+      <button type="button" onClick={switchUpdates}>
+        Add the CSS
+      </button>
+    </div>
+  );
 };
 
 export default TEXT_1;

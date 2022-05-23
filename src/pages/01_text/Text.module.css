@@ -1,0 +1,132 @@
+/* CSS Change Classes. --------------------------------------------------------*/
+
+/* Text Example 1: font-size */
+.textChange_1 {
+  font-size: 2.5rem;
+ }
+/* Text Example 2: font-weight */
+.textChange_2 {
+  font-weight: bold;
+}
+/* Text Example 3: color */
+.textChange_3 {
+  color: tomato;
+}
+/* Text Example 4: text-align */
+.textChange_4 {
+  text-align: left;
+}
+.tChange_4_Helper {
+  width: 80%;
+}
+/* Text Example 5: text-indent */
+.textChange_5 {
+  text-indent: 2rem;
+}
+/* Text Example 6: font-family */
+.textChange_6 {
+  /* font-family: "Lucida Grande", Tahoma; */
+  font-family: monospace;
+}
+/* Text Example 7: font-style */
+.textChange_7 {
+  font-style: italic;
+}
+/* Text Example 8: text-transform */
+.textChange_8 {
+  text-transform: uppercase;
+}
+/* Text Example 9: text-decoration */
+.textChange_9 {
+  text-decoration: line-through;
+}
+/* Text Example 10: text-shadow */
+.textChange_10 {
+  text-shadow: 3px 5px;
+}
+/* Text Example 11: text-shadow */
+.textChange_11 {
+  text-shadow: 3px 5px tomato;
+}
+/* Text Example 12: text-shadow */
+.textChange_12 {
+  text-shadow: 3px 5px 5px tomato;
+}
+/* Text Example 13: text-shadow */
+.textChange_13 {
+  text-shadow: -1px 0px tomato, 0px 1px tomato, 1px 0px tomato, 0px -1px tomato;
+}
+/* Text Example 14: letter-spacing */
+.textChange_14 {
+  letter-spacing: 4px;
+}
+/* Text Example 15: word-spacing */
+.textChange_15 {
+  word-spacing: 10px;
+}
+/* Text Example 16: word-spacing */
+.textChange_16 {
+  word-spacing: -10px;
+}
+/* Text Example 17: white-space */
+.textChange_17 {
+  white-space: nowrap;
+}
+.tChange_17_Helper {
+  width: 25%;
+  border: .15rem solid black;
+}
+/* Text Example 18: overflow */
+.tChange_18_Helper {
+  overflow: hidden;
+  height: 70px;
+  border: .15rem solid black;
+}
+.textChange_18 {
+  overflow: visible;
+}
+/* Text Example 19: overflow-x */
+.tChange_19_Helper {
+  overflow: hidden;
+  height: 70px;
+  border: .15rem solid black;
+}
+.textChange_19 {
+  overflow-y: scroll;
+}
+/* Text Example 20: text-justify */
+.tChange_20_Helper {
+  overflow: hidden;
+  height: 70px;
+  border: .15rem solid black;
+}
+.textChange_20 {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* Text Example 21: word-wrap */
+.tChange_21_Helper {
+  overflow: hidden;
+  width: 60%;
+  height: 70px;
+  border: .15rem solid black;
+}
+.textChange_21 {
+  word-wrap: break-word;
+}
+/* Text Example 22: writing-mode */
+.tChange_22_Helper {
+  width: 80%;
+  border: .15rem solid black;
+}
+.textChange_22 {
+  writing-mode: vertical-rl;
+}
+/* Text Example 23: writing-mode */
+.tChange_23_Helper {
+  width: 80%;
+  border: .15rem solid black;
+}
+.textChange_23 {
+  writing-mode: vertical-lr;
+}
