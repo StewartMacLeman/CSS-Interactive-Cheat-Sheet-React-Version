@@ -16,7 +16,7 @@ import BORDERS_SHADOWS_14 from "./borders_shadows_components/BORDERS_SHADOWS_14"
 import BORDERS_SHADOWS_15 from "./borders_shadows_components/BORDERS_SHADOWS_15";
 import BORDERS_SHADOWS_16 from "./borders_shadows_components/BORDERS_SHADOWS_16";
 
-const BordersShadows = ({ toggleClasses, buttonUpdate}) => {
+const BordersShadows = ({toggleClasses, buttonUpdate}) => {
   return (
       <main className="main">
           <BORDERS_SHADOWS_1 toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />

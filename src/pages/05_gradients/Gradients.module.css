@@ -1,0 +1,91 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.gradGenHelper {
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 60%;
+  height: 5rem;
+  margin-bottom: .5rem;
+ }
+
+/* Gradients Example 1: linear-gradient() - default*/
+.gradientsChange_1 {
+  background-image: linear-gradient(darkgreen, palegreen);
+ }
+/* Gradients Example 2: linear-gradient() - default*/
+.gradientsChange_2 {
+  background-image: linear-gradient(darkgreen, palegreen, linen);
+ }
+/* Gradients Example 3: linear-gradient(direction, colour-1, colour-2)*/
+.gradientsChange_3 {
+  background-image: linear-gradient(to right, darkgreen, palegreen);
+ }
+/* Gradients Example 4: linear-gradient(direction, colour-1, colour-2)*/
+.gradientsChange_4 {
+  background-image: linear-gradient(to left, darkgreen, palegreen);
+ }
+/* Gradients Example 5: linear-gradient(direction, colour-1, colour-2)*/
+.gradientsChange_5 {
+  background-image: linear-gradient(to bottom right, darkgreen, palegreen);
+ }
+/* Gradients Example 6: linear-gradient(direction, colour-1, colour-2)*/
+.gradientsChange_6 {
+  background-image: linear-gradient(to bottom left, darkgreen, palegreen);
+ }
+/* Gradients Example 7: linear-gradient(angle, colour-1, colour-2)*/
+.gradientsChange_7 {
+  background-image: linear-gradient(0deg, darkgreen, palegreen);
+ }
+/* Gradients Example 8: linear-gradient(angle, colour-1, colour-2)*/
+.gradientsChange_8 {
+  background-image: linear-gradient(45deg, darkgreen, palegreen);
+ }
+/* Gradients Example 9: linear-gradient(angle, colour-1, colour-2)*/
+.gradientsChange_9 {
+  background-image: linear-gradient(90deg, darkgreen, palegreen);
+ }
+/* Gradients Example 10: linear-gradient(angle, colour-1, colour-2)*/
+.gradientsChange_10 {
+  background-image: linear-gradient(-90deg, darkgreen, palegreen);
+ }
+/* Gradients Example 11: linear-gradient(direction, colour-1, colour-2...)*/
+.gradientsChange_11 {
+  background-image: linear-gradient(to right, darkgreen, palegreen 10%, linen);
+ }
+/* Gradients Example 12: linear-gradient(direction, colour-1, colour-2...)*/
+.gradientsChange_12 {
+  background-image: linear-gradient(to right, darkgreen, palegreen 10%, linen 40%);
+ }
+/* Gradients Example 13: linear-gradient(direction, colour-1, colour-2...)*/
+.gradientsChange_13 {
+  background-image: linear-gradient(to right,
+    darkgreen 25%, palegreen 25% 50%, linen 50% 75%, darkgreen 75%);
+ }
+/* Gradients Example 14: repeating-linear-gradient(direction, colours...)*/
+.gradientsChange_14 {
+  background-image: repeating-linear-gradient(to right,
+    darkgreen, palegreen 10%, linen 20%);
+ }
+/* Gradients Example 15: radial-gradient() - default*/
+.gradientsChange_15 {
+  background-image: radial-gradient(darkgreen, palegreen);
+ }
+/* Gradients Example 16: radial-gradient() - default*/
+.gradientsChange_16 {
+  background-image: radial-gradient(darkgreen, palegreen, linen);
+ }
+/* Gradients Example 18: radial-gradient() - default*/
+.gradientsChange_17 {
+  background-image: radial-gradient(darkgreen 5%, palegreen 20%, linen 60%);
+ }
+/* Gradients Example 19: radial-gradient() - default*/
+.gradientsChange_18 {
+  background-image: radial-gradient(darkgreen 25%, palegreen 40%, linen 80%);
+ }
+ /* Gradients Example 17: radial-gradient(shape, colour-1, colour-2...)*/
+ .gradientsChange_19 {
+   background-image: radial-gradient(circle, darkgreen, palegreen, linen);
+ }
+/* Gradients Example 20: repeating-radial-gradient()*/
+.gradientsChange_20 {
+  background-image: repeating-radial-gradient(darkgreen, palegreen 10%, linen 20%);
+ }
