@@ -1,0 +1,45 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.floatsGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  overflow-y: auto;
+  margin-bottom: .5rem;
+ }
+.floatsGenHelper div {
+  margin: 0 auto;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 6rem;
+  height: 4rem;
+ }
+
+/* The Float Property Example 1: float: left----*/
+.floatChange_1 div {
+  float: left;
+ }
+/* The Float Property Example 2: float: left----*/
+.floatChange_2 div {
+  float: left;
+ }
+/* The Float Property Example 3: float: right----*/
+.floatChange_3 div {
+  float: right;
+ }
+/* The Float Property Example 4: float: right----*/
+.floatChange_4 div {
+  float: right;
+ }
+/* The Float Property Example 5: float: none (default)----*/
+.floatChange_5 div {
+  float: none;
+ }
+ /* The Float Property Example 6: clear----*/
+ /* Added to the element directly! */
+ .floatLeft div {
+   float: left;
+ }
+ .floatChange_6 div {
+   clear: left;
+  }
