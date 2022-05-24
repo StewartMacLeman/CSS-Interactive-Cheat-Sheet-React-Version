@@ -40,7 +40,7 @@ h1, h2, h3, h4, p, li, button {
   background-color: none;
 }
 /* Display section. */
-div, span {
+.div, .span {
   font-family: helvetica, tahoma, sans-serif;
   text-align: center;
   margin: 0 auto;

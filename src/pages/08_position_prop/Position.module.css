@@ -1,0 +1,67 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.positionGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  overflow-y: auto;
+  margin-bottom: .5rem;
+ }
+.positionGenHelper div {
+  margin: 0 auto;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 6rem;
+  height: 4rem;
+ }
+
+/* The Position Property Example 1: static----*/
+.positionChange_1 div {
+  position: static;
+  top: 4rem;
+  left: 6rem;
+ }
+/* The Position Property Example 2: relative----*/
+.positionChange_2 div {
+  position: relative;
+  top: 4rem;
+  left: 6rem;
+ }
+/* The Position Property Example 3: relative----*/
+.positionChange_3 div {
+  position: relative;
+  top: 50%;
+  left: 50%;
+ }
+/* The Position Property Example 4: relative----*/
+.positionChange_4 div {
+  position: relative;
+  top: -1rem;
+  left: -3rem;
+ }
+ /* The Position Property Example 5: fixed----*/
+ .positionChange_5 div {
+   position: fixed;
+   top: 0rem;
+   left: 20%;
+   background-color: red;
+  }
+/* The Position Property Example 6: absolute----*/
+.posCh_6_helper {
+  position: relative;
+}
+.positionChange_6 div {
+  position: absolute;
+  top: 0rem;
+  left: 20%;
+ }
+/* The Position Property Example 7: sticky----*/
+.positionChange_7 div {
+  position: sticky;
+  top: 0rem;
+ }
+/* The Position Property Example 8: sticky----*/
+.positionChange_8 div {
+  position: sticky;
+  top: 0rem;
+ }

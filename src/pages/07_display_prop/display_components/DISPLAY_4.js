@@ -26,11 +26,11 @@ const DISPLAY_4 = ({ toggleClasses, buttonUpdate }) => {
       </div>
 
       <div className={genHelper}>
-        <div>A div!</div>
-        <div>A div!</div>
-        <span>A Span!</span><span>A Span!</span><span>A Span!</span>
-        <div>A div!</div>
-        <div>A div!</div>
+        <div className="div">A div!</div>
+        <div className="div">A div!</div>
+        <span className="span">A Span!</span><span className="span">A Span!</span><span className="span">A Span!</span>
+        <div className="div">A div!</div>
+        <div className="div">A div!</div>
       </div>
 
       <button type="button" onClick={switchUpdates}>

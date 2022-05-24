@@ -1,23 +1,25 @@
 import React from "react";
-import styles from "../Display.module.css";
+import styles from "../Position.module.css";
 
-const DISPLAY_3 = ({ toggleClasses, buttonUpdate }) => {
+const POSITION_1 = ({ toggleClasses, buttonUpdate }) => {
   // -------------------------------------
-  const addedClass = styles.displayChange_3;
-  const genHelper = styles.displayGenHelper;
+  const addedClass = styles.positionChange_1;
+  const genHelper = styles.positionGenHelper;
   const switchUpdates = (e) => {
     buttonUpdate(e);
     toggleClasses(e, addedClass);
   };
   // -------------------------------------
   const cssCode = `div div {
-    display: none;
-        }`;
+    position: static;
+    top: 4rem;
+    left: 6rem;
+   }`;
   // -------------------------------------
 
   return (
     <div className="cssTopicCont">
-      <h3>The Display Property: none</h3>
+      <h3>The Position Property: static</h3>
 
       <div className="codeExampleCont">
         <pre>
@@ -26,11 +28,7 @@ const DISPLAY_3 = ({ toggleClasses, buttonUpdate }) => {
       </div>
 
       <div className={genHelper}>
-        <div className="div">A div!</div>
-        <div className="div">A div!</div>
-        <span className="span">A Span!</span><span className="span">A Span!</span><span className="span">A Span!</span>
-        <div className="div">A div!</div>
-        <div className="div">A div!</div>
+        <div></div>
       </div>
 
       <button type="button" onClick={switchUpdates}>
@@ -40,4 +38,4 @@ const DISPLAY_3 = ({ toggleClasses, buttonUpdate }) => {
   );
 };
 
-export default DISPLAY_3;
+export default POSITION_1;
