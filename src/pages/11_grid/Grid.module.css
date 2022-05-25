@@ -1,0 +1,177 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.gridGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 15rem;
+  overflow: hidden;
+  margin-bottom: .5rem;
+ }
+.gridGenHelper div {
+  font-family: helvetica, tahoma, sans-serif;
+  margin: 0;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+ }
+
+/* Grid Example 1: grid-template-columns----*/
+.gridChange_1 {
+  display: grid;
+  grid-template-columns: auto auto;
+ }
+/* Grid Example 2: grid-template-columns----*/
+.gridChange_2 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+ }
+/* Grid Example 3: grid-template-columns----*/
+.gridChange_3 {
+  display: grid;
+  grid-template-columns: 6rem 6rem;
+ }
+/* Grid Example 4: grid-template-columns----*/
+.gridChange_4 {
+  display: grid;
+  grid-template-columns: 6rem 6rem auto;
+ }
+/* Grid Example 5: grid-template-rows----*/
+.gridChange_5 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 3rem auto;
+ }
+/* Grid Example 6: grid-template-rows----*/
+.gridChange_6 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 2rem 4rem auto;
+ }
+/* Grid Example 7: grid-column-gap----*/
+.gridChange_7 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-column-gap: 1.5rem;
+ }
+/* Grid Example 8: grid-row-gap----*/
+.gridChange_8 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-row-gap: 1.5rem;
+ }
+/* Grid Example 9: grid-gap----*/
+.gridChange_9 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1.5rem;
+ }
+/* Grid Example 10: grid-gap----*/
+.gridChange_10 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: .75rem 1.5rem;
+ }
+/* Grid Example 11: justify-content----*/
+.gridChange_11 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  justify-content: space-evenly;
+ }
+/* Grid Example 12: justify-content----*/
+.gridChange_12 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  justify-content: space-around;
+ }
+/* Grid Example 13: justify-content----*/
+.gridChange_13 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  justify-content: space-between;
+ }
+/* Grid Example 14: justify-content----*/
+.gridChange_14 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  justify-content: center;
+ }
+/* Grid Example 15: justify-content----*/
+.gridChange_15 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  justify-content: start;
+ }
+/* Grid Example 16: justify-content----*/
+.gridChange_16 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  justify-content: end;
+ }
+/* Grid Example 17: align-content----*/
+.gridChange_17 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: space-evenly;
+ }
+/* Grid Example 18: align-content----*/
+.gridChange_18 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: space-around;
+ }
+/* Grid Example 19: align-content----*/
+.gridChange_19 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: space-between;
+ }
+/* Grid Example 20: align-content----*/
+.gridChange_20 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: center;
+ }
+/* Grid Example 21: align-content----*/
+.gridChange_21 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: start;
+ }
+/* Grid Example 22: align-content----*/
+.gridChange_22 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: end;
+ }
+/* Grid Example 23: align-content & justify-content----*/
+.gridChange_23 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: center;
+  justify-content: center;
+ }
+/* Grid Example 24: align-content & justify-content----*/
+.gridChange_24 {
+  display: grid;
+  grid-template-columns: 3.5rem 3.5rem 3.5rem;
+  align-content: space-evenly;
+  justify-content: space-evenly;
+ }
+
+ /* Grid Example 25: grid-column & grid-row -------------------------------*/
+ .gridChange_25 {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   grid-gap: 0.5rem;
+   padding: 0.15rem;
+ }
+ .div_1 { grid-column: 1 / 4; }
+ .div_2 { grid-row: 2 / 4; }
+
+ /* Grid Example 26: grid-area ---------------------------------------------*/
+ .gridChange_26 {
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap: 0.5rem;
+   padding: 0.15rem;
+ }
+ .area { grid-area: 1 / 2 / 3 / 4; }
