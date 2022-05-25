@@ -1,0 +1,111 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.transformsGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+ }
+.transformsGenHelper div {
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 6rem;
+  height: 4rem;
+ }
+
+/* Transform Example 1: translate(x,y)----*/
+.transformChange_1 div {
+  transform: translate(6rem, 4rem);
+ }
+/* Transform Example 2: translate(x,y)----*/
+.transformChange_2 div {
+  transform: translate(-6rem, -4rem);
+ }
+/* Transform Example 3: translate(x,y)----*/
+.transformChange_3 div {
+  transform: translate(6rem, 0rem);
+ }
+/* Transform Example 4: rotate(deg)----*/
+.transformChange_4 div {
+  transform: rotate(45deg);
+ }
+/* Transform Example 5: rotate(deg)----*/
+.transformChange_5 div {
+  transform: rotate(-45deg);
+ }
+/* Transform Example 6: rotateX(deg)----*/
+.transformChange_6 div {
+  transform: rotateX(45deg);
+ }
+/* Transform Example 7: rotateX(deg)----*/
+.transformChange_7 div {
+  transform: rotateX(180deg);
+ }
+/* Transform Example 8: rotateY(deg)----*/
+.transformChange_8 div {
+  transform: rotateY(45deg);
+ }
+/* Transform Example 9: rotateY(deg)----*/
+.transformChange_9 div {
+  transform: rotateY(80deg);
+ }
+/* Transform Example 10: rotateY(deg)----*/
+.transformChange_10 div {
+  transform: rotateY(180deg);
+ }
+/* Transform Example 11: rotateZ(deg)----*/
+.transformChange_11 div {
+  transform: rotateZ(45deg);
+ }
+/* Transform Example 12: rotateZ(deg)----*/
+.transformChange_12 div {
+  transform: rotateZ(180deg);
+ }
+/* Transform Example 13: scaleX(n)----*/
+.transformChange_13 div {
+  transform: scaleX(2);
+ }
+/* Transform Example 14: scaleX(n)----*/
+.transformChange_14 div {
+  transform: scaleX(0.5);
+ }
+/* Transform Example 15: scaleY(n)----*/
+.transformChange_15 div {
+  transform: scaleY(2);
+ }
+/* Transform Example 16: scaleY(n)----*/
+.transformChange_16 div {
+  transform: scaleY(0.5);
+ }
+/* Transform Example 17: scale(x,y)----*/
+.transformChange_17 div {
+  transform: scale(3,2);
+ }
+/* Transform Example 18: scale(x,y)----*/
+.transformChange_18 div {
+  transform: scale(0.5,0.75);
+ }
+/* Transform Example 19: skewX(deg)----*/
+.transformChange_19 div {
+  transform: skewX(45deg);
+ }
+/* Transform Example 20: skewX(deg)----*/
+.transformChange_20 div {
+  transform: skewX(-45deg);
+ }
+/* Transform Example 21: skewY(deg)----*/
+.transformChange_21 div {
+  transform: skewY(45deg);
+ }
+/* Transform Example 22: skewY(deg)----*/
+.transformChange_22 div {
+  transform: skewY(-45deg);
+ }
+/* Transform Example 23: skew(x-deg,y-deg)----*/
+.transformChange_23 div {
+  transform: skew(20deg, 20deg);
+ }
