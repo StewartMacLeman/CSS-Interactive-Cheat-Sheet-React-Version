@@ -1,0 +1,103 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.transitionsGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+ }
+.transitionsGenHelper div {
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 6rem;
+  height: 4rem;
+ }
+
+/* Transition Example 1: transition: duration----*/
+.transitionChange_1 div {
+  width: 12rem;
+  transition: 2s;
+ }
+/* Transition Example 2: transition: duration----*/
+.transitionChange_2 div {
+  height: 8rem;
+  transition: 3s;
+ }
+/* Transition Example 3: transition: durations----*/
+.transitionChange_3 div {
+  width: 12rem;
+  height: 8rem;
+  transition:  width 0.5s, height 3s;
+ }
+/* Transition Example 4: transition: durations----*/
+.transitionChange_4 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 3s;
+ }
+/* Transition Example 5: transition-timing-function----*/
+.transitionChange_5 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 5s;
+  transition-timing-function: linear;
+ }
+/* Transition Example 6: transition-timing-function----*/
+.transitionChange_6 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 5s;
+  transition-timing-function: ease;
+ }
+/* Transition Example 7: transition-timing-function----*/
+.transitionChange_7 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 5s;
+  transition-timing-function: ease-in;
+ }
+/* Transition Example 8: transition-timing-function----*/
+.transitionChange_8 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 5s;
+  transition-timing-function: ease-out;
+ }
+/* Transition Example 9: transition-timing-function----*/
+.transitionChange_9 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 5s;
+  transition-timing-function: ease-in-out;
+ }
+/* Transition Example 10: transition-delay----*/
+.transitionChange_10 div {
+  width: 12rem;
+  height: 8rem;
+  transition: 3s;
+  transition-delay: 3s;
+ }
+ /* Transition Example 11: shorthand (props: duration type delay)----*/
+ .transitionChange_11 div {
+   width: 12rem;
+   transition: 5s ease-out 2s;
+ }
+/* Transition Example 12: transition with transform----*/
+.transitionChange_12 div {
+  transform: rotate(360deg);
+  transition: 3s;
+ }
+/* Transition Example 13: transition with transform----*/
+.transitionChange_13 div {
+  transform: scale(2);
+  transition: 3s;
+ }
+/* Transition Example 14: transition with transform----*/
+.transitionChange_14 div {
+  transform: scaleY(2) rotateY(360deg);
+  transition: 3s;
+ }
