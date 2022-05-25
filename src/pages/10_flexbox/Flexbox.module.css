@@ -1,0 +1,216 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.flexboxGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  overflow: hidden;
+  margin-bottom: .5rem;
+ }
+.flexboxGenHelper div {
+  margin: 0;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 5rem;
+  height: 3rem;
+  font-family: helvetica, tahoma, sans-serif;
+ }
+
+/* Flexbox Example 1: display: flex;----*/
+.flexboxChange_1 {
+  display: flex;
+ }
+/* Flexbox Example 2: flex-direction----*/
+.flexboxChange_2 {
+  display: flex;
+  flex-direction: column;
+ }
+/* Flexbox Example 3: flex-direction----*/
+.flexboxChange_3 {
+  display: flex;
+  flex-direction: column-reverse;
+ }
+/* Flexbox Example 4: flex-direction----*/
+.flexboxChange_4 {
+  display: flex;
+  flex-direction: row;
+ }
+/* Flexbox Example 5: flex-direction----*/
+.flexboxChange_5 {
+  display: flex;
+  flex-direction: row-reverse;
+ }
+/* Flexbox Example 6: flex-wrap----*/
+.flexboxChange_6 {
+  display: flex;
+  flex-wrap: wrap;
+ }
+/* Flexbox Example 7: flex-wrap----*/
+.flexboxChange_7 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+ }
+/* Flexbox Example 8: justify-content----*/
+.flexboxChange_8 {
+  display: flex;
+  justify-content: center;
+ }
+/* Flexbox Example 9: justify-content----*/
+.flexboxChange_9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ }
+/* Flexbox Example 10: justify-content----*/
+.flexboxChange_10 {
+  display: flex;
+  justify-content: flex-start;
+ }
+/* Flexbox Example 11: justify-content----*/
+.flexboxChange_11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+ }
+/* Flexbox Example 12: justify-content----*/
+.flexboxChange_12 {
+  display: flex;
+  justify-content: flex-end;
+ }
+/* Flexbox Example 13: justify-content----*/
+.flexboxChange_13 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+ }
+/* Flexbox Example 14: justify-content----*/
+.flexboxChange_14 {
+  display: flex;
+  justify-content: space-around;
+ }
+/* Flexbox Example 15: justify-content----*/
+.flexboxChange_15 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+ }
+/* Flexbox Example 16: justify-content----*/
+.flexboxChange_16 {
+  display: flex;
+  justify-content: space-between;
+ }
+/* Flexbox Example 17: justify-content----*/
+.flexboxChange_17 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+ }
+/* Flexbox Example 18: align-items----*/
+.flexboxChange_18 {
+  display: flex;
+  align-items: center;
+ }
+/* Flexbox Example 19: align-items----*/
+.flexboxChange_19 {
+  display: flex;
+  align-items: flex-start;
+ }
+/* Flexbox Example 20: align-items----*/
+.flexboxChange_20 {
+  display: flex;
+  align-items: flex-end;
+ }
+/* Flexbox Example 21: align-items----*/
+.flexboxChange_21 {
+  display: flex;
+  align-items: stretch;
+}
+.flexboxChange_21 div {
+  height: auto;
+}
+/* Flexbox Example 22: align-items----*/
+.flexboxChange_22 {
+  display: flex;
+  align-items: baseline;
+ }
+/* Flexbox Example 23: align-content----*/
+.flexboxChange_23 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+ }
+/* Flexbox Example 24: align-content----*/
+.flexboxChange_24 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+ }
+/* Flexbox Example 25: align-content----*/
+.flexboxChange_25 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-end;
+ }
+/* Flexbox Example 26: align-content----*/
+.flexboxChange_26 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+ }
+/* Flexbox Example 27: align-content----*/
+.flexboxChange_27 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+ }
+/* Flexbox Example 28: align-content----*/
+.flexboxChange_28 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+ }
+ .flexboxChange_28 div {
+   height: auto;
+ }
+/* Flexbox Example 29: align-content & justify-content----*/
+.flexboxChange_29 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+ }
+/* Flexbox Example 30: align-content & justify-content----*/
+.flexboxChange_30 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+ }
+/* Flexbox Example 31: align-content & justify-content----*/
+.flexboxChange_31 {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+ }
+/* Flexbox Example 32: align-items & justify-content----*/
+.flexboxChange_32 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }
+/* Flexbox Example 33: align-items & justify-content----*/
+.flexboxChange_33 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }
+/* Flexbox Example 34: align-items & justify-content----*/
+.flexboxChange_34 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }

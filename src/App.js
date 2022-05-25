@@ -58,7 +58,7 @@ const App = () => {
           <Route path="07_display_property" element={<DisplayProperty toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           <Route path="08_position_property" element={<PositionProperty toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           <Route path="09_floats" element={<Floats toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
-          <Route path="10_flexbox" element={<Flexbox />} />
+          <Route path="10_flexbox" element={<Flexbox toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           <Route path="11_grid" element={<Grid />} />
           <Route path="12_transforms" element={<Transforms />} />
           <Route path="13_transitions" element={<Transitions />} />
