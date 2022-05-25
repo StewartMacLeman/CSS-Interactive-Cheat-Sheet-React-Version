@@ -62,7 +62,7 @@ const App = () => {
           <Route path="11_grid" element={<Grid toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           <Route path="12_transforms" element={<Transforms toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           <Route path="13_transitions" element={<Transitions toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
-          <Route path="14_animations" element={<Animations />} />
+          <Route path="14_animations" element={<Animations toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />} />
           {/* ----------------------------- */}
           <Route path="*" element={<Missing />} />
           {/* ------------------------------ */}

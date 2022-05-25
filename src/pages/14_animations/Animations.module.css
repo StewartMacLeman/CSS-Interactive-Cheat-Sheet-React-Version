@@ -1,0 +1,114 @@
+/* CSS Change Classes. -------------------------------------------------------*/
+.animationsGenHelper {
+  border: 0.15rem solid black;
+  width: 20rem;
+  height: 12.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: .5rem;
+ }
+.animationsGenHelper div {
+  font-family: helvetica, tahoma, sans-serif;
+  text-align: center;
+  border: 0.15rem solid black;
+  background-color: var(--palegreen);
+  width: 6rem;
+  height: 4rem;
+ }
+
+/* Animation Example 1: animation-name & animation-duration----*/
+@keyframes colour_change {
+  from {background-color: linen;}
+  to {background-color: darkgreen;}
+}
+.animationChange_1 div {
+  animation-name: colour_change;
+  animation-duration: 5s;
+}
+/* Animation Example 2: animation-name & animation-duration----*/
+@keyframes colour_size_change {
+  from {background-color: linen;
+        }
+  to   {background-color: darkgreen;
+        width: 12rem;
+        }
+}
+.animationChange_2 div {
+  animation-name: colour_size_change;
+  animation-duration: 5s;
+}
+/* Animation Example 3: animation-name & animation-duration----*/
+@keyframes colour_size_change_2 {
+  from {
+        }
+  to   {background-color: darkgreen;
+        width: 12rem;
+        }
+}
+.animationChange_3 div {
+  animation-name: colour_size_change_2;
+  animation-duration: 5s;
+}
+/* Animation Example 4: animation-name & animation-duration----*/
+@keyframes colour_size_change_3 {
+  0%   { background-color: linen; }
+  33%  { background-color: palegreen; width: 12rem; }
+  66%  { background-color: darkgreen; width: 12rem; }
+  100% { height: 8rem; }
+}
+.animationChange_4 div {
+  animation-name: colour_size_change_3;
+  animation-duration: 9s;
+}
+/* Animation Example 5: animation-delay-------------------------*/
+.animationChange_5 div {
+  animation-name: colour_size_change_3;
+  animation-duration: 9s;
+  animation-delay: 3s;
+}
+/* Animation Example 6: animation-delay & animation-fill-mode----*/
+.animationChange_6 div {
+  animation-name: colour_size_change_3;
+  animation-duration: 9s;
+  animation-delay: -3s;
+  animation-fill-mode: forwards;
+}
+/* Animation Example 7: animation-iteration-count----------------*/
+@keyframes box_move {
+  0%   { top: 0rem;  left: 0rem; }
+  25%  { top: 0px;  left: 6rem; }
+  50%  { top: 4rem; left: 6rem; }
+  75%  { top: 4rem; left: 0rem; }
+  100% { top: 0rem;  left: 0rem; }
+}
+.animationChange_7 div {
+  animation-name: box_move;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: 2;
+}
+/* Animation Example 8: animation-iteration-count----------------*/
+.animationChange_8 div {
+  animation-name: box_move;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: infinite;
+}
+/* Animation Example 9: animation-direction----------------------*/
+.animationChange_9 div {
+  animation-name: box_move;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+/* Animation Example 10: animation-timing-function-----------------*/
+.animationChange_10 div {
+  animation-name: box_move;
+  animation-duration: 5s;
+  position: relative;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
