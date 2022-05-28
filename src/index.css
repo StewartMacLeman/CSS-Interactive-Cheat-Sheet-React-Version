@@ -8,7 +8,6 @@ html {
 :root {
   --palegreen: rgba(152, 251, 152, 0.4);
 }
-
 body {
   min-height: 98%;
   margin: 0 auto;
@@ -20,7 +19,7 @@ body {
   flex: 1;
   width: 100%;
 }
-
+/* --------------------------------------------------- */
 h1 { font-size: 2.5rem; }
 h2 { font-size: 2rem; }
 h3 { font-size: 1.5rem; }
@@ -39,7 +38,7 @@ h1, h2, h3, h4, p, li, button {
   padding: .2rem;
   background-color: none;
 }
-/* Display section. */
+/* For the Display section. */
 .div, .span {
   font-family: helvetica, tahoma, sans-serif;
   text-align: center;
@@ -117,11 +116,11 @@ button:hover {
    border: .25rem solid black;
    border-radius: .6rem;
  }
- .main .cssTopicCont {
+ .main .cssTopicCont, .main .homePage {
    margin: 1rem auto;
  }
  /* Individual sections container. --------------------- */
-.cssTopicCont {
+.cssTopicCont, .homePage {
   width: 90%;
   padding: .15rem;
   border: .15rem solid black;
@@ -152,16 +151,25 @@ button:hover {
   flex-direction: column;
   align-items: center;
 }
-/* .codeExampleCont div {
-  font-family: helvetica, tahoma, sans-serif;
-  font-size: 1.5rem;
-} */
 code {
   padding: 0.25rem 0.5rem;
 }
 pre {
   padding: 0;
   margin: 0;
+}
+/* Home page styles. ---------------------------------------- */
+.homeH2 {
+  text-decoration: underline;
+  margin-bottom: .75rem;
+}
+.homePage ul {
+  width: 65%;
+  padding: 0;
+}
+.homePage ul li {
+  text-align: left;
+  list-style: disc;
 }
 /* Missing page styles. -------------------------------------- */
 .missing {
@@ -184,33 +192,8 @@ pre {
 }
 .missing button a:hover {
   color: black;
-}
-/* ------------------------------------------------------- */
-/* .sampleDiv {
-  border: .15rem solid black;
-}
-.highlight {
-  margin-bottom: 2rem;
-}
-.highlight::before {
-  content: "** ";
-}
-.highlight::after {
-  content: " **";
-} */
-/* .marginB {
-  margin-bottom: 1.25rem;
-}
-.imageExampleCont {
-  width: 70%;
-  padding: .25rem;
-  border: .15rem solid black;
   background-color: white;
-  border-radius: .6rem;
 }
-.imageExampleCont img {
-  max-width: 100%;
-} */
 /* The hide class. ---------------------------------------------*/
 .hide {
   display: none;

@@ -1,10 +1,12 @@
 import React from "react";
+import HomeText from "./text_demo/HomeText";
+import Demo from "./text_demo/Demo";
 
-const Home = () => {
+const Home = ({ toggleClasses, buttonUpdate}) => {
   return (
       <main className="main">
-          <h1>Home Page!</h1>
-          <h2>Content to be added!</h2>
+          <HomeText />
+          <Demo toggleClasses={toggleClasses} buttonUpdate={buttonUpdate} />
       </main>
 
   )

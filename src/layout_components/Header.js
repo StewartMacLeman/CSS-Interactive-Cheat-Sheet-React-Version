@@ -3,7 +3,7 @@ import Navigation from "./Navigation";
 
 const Header = () => {
 
-  const [pageTitle, setPageTitle] = useState("Home");
+  const [pageTitle, setPageTitle] = useState("");
 
   const getTitle = (e) => {
     let itemClicked = e.target;
@@ -30,7 +30,8 @@ const Header = () => {
 
   return (
     <header className="header">
-      <h1>CSS Cheat-Sheet: {pageTitle}</h1>
+      {pageTitle === "" && <h1>CSS Cheat-Sheet</h1>}
+      {pageTitle !== "" && <h1>CSS Cheat-Sheet{`: ${pageTitle}`}</h1>}
       <button type="button" onClick={showNavigation}>
         Show Nav
       </button>
